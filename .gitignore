@@ -1,0 +1,7 @@
+# this files allows us choose the files which should be pushed to the github or gitlab
+
+__pycache__/
+*.pyc
+.env
+env
+test_db.db

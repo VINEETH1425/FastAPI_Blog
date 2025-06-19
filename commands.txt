@@ -1,0 +1,24 @@
+python -m venv env : this is for the creating python envi
+.\env\Scripts\activate : this is for the activating the environment.
+git init : this Initialized empty Git repository in D:/FASTAPI/.git/
+
+after that create a folder with name backend , in it initialize the requirements with the text files
+pip install -r requirements.txt
+
+uvicorn main:app --reload : this reload the flag makes sure that every time we make some changes in the codebase, uvicorn reloads the application
+here we are using uvicorn as the server.
+
+git status : says us which are files will be pushed.
+new repository on the command line:
+echo "# FastAPI_Blog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VINEETH1425/FastAPI_Blog.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/VINEETH1425/FastAPI_Blog.git
+git branch -M main
+git push -u origin main
